@@ -17,5 +17,8 @@
 }
 
 // put new methods here
+- (void)TouchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+    [character flap];
+}
 
 @end
